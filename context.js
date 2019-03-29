@@ -75,8 +75,6 @@ function whatIsThis() {
   return this
 }
 
-//Code Here
-
 // uncomment the line below and tell us what the context of "this" is for whatIsThis()
 //let context1 = ???
 
