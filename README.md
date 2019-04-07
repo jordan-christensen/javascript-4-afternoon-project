@@ -17,6 +17,27 @@ In this project we'll test your knowledge of Classes and Context in JavaScript.
 
 When you complete the project, push your code to github and submit the URL in the LMS.
 
+## Resources
+
+<details>
+
+<summary> <code> Classes </code> </summary>
+
+* [Declaring a Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Class_declarations)
+* [Subclassing](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Sub_classing_with_extends)
+* [Using Super](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Super_class_calls_with_super)
+
+</details>
+
+<details>
+
+<summary> <code> Context </code> </summary>
+
+* [Understanding This](https://www.w3schools.com/js/js_this.asp)
+* [Understanding the "New" Keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)
+
+</details>
+
 ## Contributions
 
 If you see a problem or a typo, please fork, make the necessary changes, and create a pull request so we can review your changes and merge them into the master repo and branch.
