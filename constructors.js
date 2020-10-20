@@ -124,13 +124,12 @@ function Employee(name, email, hireDate) {
   // Write a prototype method for the User constructor function named removeSavedPost that will take in one number parameter representing the post id. Use this id to find and remove the matching object in the savedPosts array.
   
   // Code here
-  User.prototype.removeSavedPost = function(num){
+  User.prototype.removeSavedPost = function(id){
     this.savedPosts = this.savedPosts.filter(function(elem){
-      return elem.id !== num
-    })  
-  
+      return elem.id !== id;
+    })
   }
-  
+
   ////////// PROBLEM 7 //////////
   
   // You will continue to use the constructor function you created in problem 5.
@@ -138,10 +137,11 @@ function Employee(name, email, hireDate) {
   
   // Code here
   
-  User.prototype.changePostRating = function(num, newRating){
-    this.savedPosts = this.savedPosts.filter(function(elem){
-     return elem.id === num;
-     console.log(this.savedPosts)
-  });
-
+  User.prototype.changePostRating = function(id, newRating) {
+    this.savedPosts = this.savedPosts.filter(function(elem) {
+      if (elem.id === id) {
+        elem.rating = newRating;
+      }
+      return elem
+    });
 }
